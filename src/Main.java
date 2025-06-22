@@ -45,7 +45,7 @@ public class Main {
         var overweight = weigthBoxer2 % weigthBoxer1;
         System.out.println(overweight);
         var totalOperatingHour = 640;
-        System.out.println("Всего рабочих часов компании " + totalOperatingHour);
+        System.out.println("Всего рабочих часов " + totalOperatingHour);
         var hoursForWorkers = 8;
         System.out.println("Время работы одного сотрудника " + hoursForWorkers + " ч.");
         var numberEmployees = totalOperatingHour / hoursForWorkers;
