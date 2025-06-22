@@ -34,12 +34,27 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
-        var weithBoxer1 = 78.2;
-        System.out.println(weithBoxer1);
-        var weithBoxer2 = 82.7;
-        System.out.println(weithBoxer2);
-        var totalWeithBoxers = weithBoxer1 + weithBoxer2;
-        System.out.println(totalWeithBoxers);
+        var weigthBoxer1 = 78.2;
+        System.out.println(weigthBoxer1);
+        var weigthBoxer2 = 82.7;
+        System.out.println(weigthBoxer2);
+        var totalWeigthBoxers = weigthBoxer1 + weigthBoxer2;
+        System.out.println("Общий вес боксеров " + totalWeigthBoxers + " кг");
+        var weightDifference = weigthBoxer2 - weigthBoxer1;
+        System.out.println("Разница в весе боксеров " + weightDifference + " кг");
+        var overweight = weigthBoxer2 % weigthBoxer1;
+        System.out.println(overweight);
+        var totalOperatingHour = 640;
+        System.out.println("Всего рабочих часов " + totalOperatingHour);
+        var hoursForWorkers = 8;
+        System.out.println("Время работы одного сотрудника " + hoursForWorkers + " ч.");
+        var numberEmployees = totalOperatingHour / hoursForWorkers;
+        System.out.println("Всего сотрудников в компании " + numberEmployees + " человек");
+        numberEmployees = numberEmployees + 94;
+        System.out.println("Количество сотрудников " + numberEmployees + " человек");
+        var allOperatingHour = numberEmployees * hoursForWorkers;
+        System.out.println("Если в компании работает " + numberEmployees + " человек, то всего " + allOperatingHour + "часов работы может быть поделено между сотрудниками");
+
 
 
     }
